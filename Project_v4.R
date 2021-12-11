@@ -25,7 +25,8 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
                              h2("Pranaykumar Pagdhare - Correlation Analysis", align = "left"),
                              h2("Saymon Mameza - Predicted Web Page Visits ", align = "left"),
                              h3("Purpose - understand data and predict web page visits", align = "left"),
-                             h3("Data - Customer profiles, preferences, and shopping channel performance", align = "left")
+                             h3("Data - Customer profiles, preferences, and shopping channel performance", align = "left"),
+                             h4("Data Link - https://www.kaggle.com/jackdaoud/marketing-data", align = "left")
                            )),
                   tabPanel("Exploratory Data Analysis and Visualization",
                            sidebarPanel(
